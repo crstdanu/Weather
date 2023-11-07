@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}} Weather</title>
+    <title>Vremea în {{title}}</title>
     <link href="{{url_for('static', filename='styles/style.css')}}" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>{{title}} Weather</h1>
-    <p>{{ status }} and {{ temp }}&deg;</p>
-    <p>Feels like {{ feels_like }}&deg;</p>
+    <h1>Vremea în {{title}}</h1>
+    <p>{{ status }} și {{ temp }}&deg;</p>
+    <p>Se simte ca {{ feels_like }}&deg;</p>
 
     <form action="/weather">
-        <input type="text" name="city" id="city" placeholder="Enter a City" />
-        <button type="submit">Submit</button>
+        <input type="text" name="city" id="city" placeholder="Introduceți o localitate" />
+        <button type="submit">Arată</button>
     </form>
 </body>
 
