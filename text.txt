@@ -1,0 +1,5 @@
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+
+static = holds any STATIC FILES
+        = non-changing
+        = css, javascript, images
